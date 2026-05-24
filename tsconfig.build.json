@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"] // Exclude Jest types from production build outputs
+  },
+  "exclude": ["ts-test/**/*"] // Explicitly ignore tests during compilation
+}
